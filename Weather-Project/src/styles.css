@@ -1,0 +1,88 @@
+.container {
+  border-radius: 15px;
+  margin: 25px;
+  padding: 50px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
+  );
+  border: 0.5rem outset #a7bcb9;
+  max-width: 70%;
+  font-family: "Londrina Solid", cursive;
+}
+.form-control {
+  background: #a7bcb9;
+}
+#inputButton {
+  background-color: #5dacbd;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#current-location-button {
+  background-color: #5dacbd;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#searchedCity {
+  color: #e0ebeb;
+  padding-top: 25px;
+  font-size: 50px;
+}
+h2 {
+  color: #5dacbd;
+  font-size: 42px;
+}
+#temperature {
+  font-size: 55px;
+  color: #e0ebeb;
+}
+.units {
+  font-size: 55px;
+  color: #e0ebeb;
+}
+#humidity,
+#humidityText,
+#wind,
+#windText {
+  font-size: 30px;
+  color: #5dacbd;
+}
+.sun-image {
+  width: 100px;
+}
+.forecast {
+  font-size: 25px;
+  color: #e0ebeb;
+  margin-top: 25px;
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  border: 0.5rem outset #a7bcb9;
+  outline: 0.5rem solid #5dacbd;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.monday,
+.monday-temp,
+.tuesday,
+.tuesday-temp,
+.wednesday,
+.wednesday-temp,
+.thursday,
+.thursday-temp,
+.friday,
+.friday-temp,
+.saturday,
+.saturday-temp {
+  padding-left: 15px;
+}
+.sun-image-small {
+  width: 75px;
+}
+.cloud-image-small {
+  width: 80px;
+}
